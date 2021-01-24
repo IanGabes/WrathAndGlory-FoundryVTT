@@ -2,7 +2,7 @@ import { prepareCommonRoll, prepareWeaponRoll, prepareDamageRoll, preparePsychic
 import { reroll } from "../common/roll.js";
 
 export class WrathAndGloryActorSheet extends ActorSheet {
-    rollData = {};
+    //rollData = {};  commented this out because it doesn't compile?
 
     activateListeners(html) {
         super.activateListeners(html);
